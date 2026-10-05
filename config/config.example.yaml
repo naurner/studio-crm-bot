@@ -1,0 +1,9 @@
+google:
+  sheet_id: ""
+  worksheet_name: "Заказы"
+  service_account_file: "config/service_account.json"
+
+poll:
+  interval_s: 30.0
+
+db_path: "data/crmlumi.sqlite"

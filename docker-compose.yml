@@ -1,0 +1,16 @@
+# Запуск бота на Mac: docker compose up -d
+# Дальше контейнер поднимается сам — при старте Docker и после перезагрузки.
+services:
+  crmlumi:
+    build: .
+    container_name: crmlumi
+    restart: unless-stopped
+    # Часовой пояс: по нему считаются напоминания фотографам и тихие часы.
+    # Поменять — задать TZ в .env рядом с токенами.
+    environment:
+      TZ: ${TZ:-Asia/Bishkek}
+    # Вся папка проекта: код (его обновляет git pull из бота), config/, data/,
+    # logs/ и .env. Секреты остаются на Mac и в образ не попадают.
+    volumes:
+      - .:/app
+    stop_grace_period: 20s

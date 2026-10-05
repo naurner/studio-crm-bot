@@ -1,0 +1,12 @@
+.worktrees/
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+data/
+logs/
+build/
+.venv/
+config/config.yaml
+config/service_account.json
+.env

@@ -1,0 +1,3 @@
+# В образ идёт только pyproject.toml — всё остальное приезжает bind-mount'ом.
+*
+!pyproject.toml
