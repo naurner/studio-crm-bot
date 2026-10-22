@@ -8,7 +8,7 @@
 ![Microsoft Graph](https://img.shields.io/badge/Microsoft%20Graph-To%20Do-0078D4?logo=microsoft&logoColor=white)
 ![Tests](https://img.shields.io/badge/tests-364%20passing-success)
 
-> Built for the graduation photo album team I work in; the four of us run all orders through it. Each order goes through 10 stages and passes between sales, schedulers, photographers, retouchers, designers and print.
+> Built for the graduation photo album team I work in ([lumi.kg](https://lumi.kg)); the four of us run all orders through it. Each order goes through 10 stages and passes between sales, schedulers, photographers, retouchers, designers and print.
 
 ---
 
